@@ -1,0 +1,48 @@
+body {
+	text-align:center;
+	background-color: tan;
+}
+
+#board  {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#intro {
+	font-size: 25px;
+}
+
+.tile { 
+	height: 125px; 
+	width: 125px; 
+	line-height: 125px; /*center text vertically*/
+/* 	border: 1px solid black;  */
+	float: left; 
+	margin: 2px; 
+	text-align: center;
+	font-size: 75px;
+}
+
+.newrow { 
+	clear: both; 
+}
+
+.unselected {
+	background-color: black ; 
+}
+
+.selected {
+	background-color: black ; 
+	color: tan;
+}
+
+.eliminated {
+	visibility: hidden;
+}
+
+#game_over_message {
+	font-size: 50px;
+}
+
